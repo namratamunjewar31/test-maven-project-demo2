@@ -1,10 +1,10 @@
 import org.testng.annotations.Test;
 
-public class TestNGClassEx2 {
+public class TestNGClassEx {
 
-     @Test
+   @Test
+    public void test1() {
+       System.out.println("In testing method");
+   }
 
-    public void test1(){
-         System.out.println("In Testing Method");
-     }
 }
